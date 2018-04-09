@@ -1,18 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-import { AppComponent } from './app.component';
+import { RandomComponent } from './random/random.component';
+import { CountdownComponent } from './countdown/countdown.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    CountdownComponent,
+    RandomComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ CountdownComponent,RandomComponent ]
 })
 export class AppModule { }

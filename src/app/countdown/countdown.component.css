@@ -1,0 +1,31 @@
+.tittle{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: orange;
+  text-align:center;
+}
+
+#countdowndiv{
+  font-family: sans-serif;
+  color: black;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 40px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#countdowndiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #fff;
+  display: inline-block;
+  border: 2px solid darkgray;
+}
+
+.smalltext{
+  font-family: "Arial Black";
+  font-size: 15px;
+  color: darkgray;
+}
